@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "exercises-chapter-3"
+version = "0.1.0"
+description = "Chapter 3 exercises"
+requires-python = ">=3.10"
+
+[tool.hatch.build.targets.wheel]
+packages = ["polynomials", "shape"]
